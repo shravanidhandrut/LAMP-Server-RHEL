@@ -193,7 +193,6 @@ $students = $pdo->query("SELECT * FROM students ORDER BY created_at DESC")->fetc
 
 <header>
     <h1>Student Records Management</h1>
-    <p>LAMP Stack Project &mdash; RHEL 9 &bull; Apache &bull; MariaDB &bull; PHP 8.3</p>
 </header>
 
 <div class="container">
@@ -260,10 +259,6 @@ $students = $pdo->query("SELECT * FROM students ORDER BY created_at DESC")->fetc
     </table>
 
 </div>
-
-<footer>
-    LAMP Stack &mdash; Linux &bull; Apache &bull; MariaDB &bull; PHP &mdash; Deployed on AWS EC2
-</footer>
 
 </body>
 </html>
