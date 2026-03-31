@@ -95,26 +95,6 @@ EC2 Instance — RHEL 9
 
 ---
 
-## 🔹 Database Schema
-
-```sql
-CREATE DATABASE studentdb;
-
-CREATE USER 'lampuser'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON studentdb.* TO 'lampuser'@'localhost';
-FLUSH PRIVILEGES;
-
-USE studentdb;
-
-CREATE TABLE students (
-    id         INT AUTO_INCREMENT PRIMARY KEY,
-    name       VARCHAR(100) NOT NULL,
-    email      VARCHAR(100) NOT NULL,
-    course     VARCHAR(100) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
 ---
 
 ## 🔹 Application Features
@@ -126,18 +106,6 @@ The Student Records Management System supports full **CRUD** operations:
 | Create    | Add a new student via HTML form        |
 | Read      | Display all student records in a table |
 | Delete    | Remove a student record by ID          |
-
----
-
-## 🔹 How to Access
-
-```
-# View the application
-http://<EC2-Public-IP>/
-
-# Direct access to app file
-http://<EC2-Public-IP>/index.php
-```
 
 ---
 
