@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the end-to-end deployment of a full **LAMP stack** (Linux, Apache, MariaDB, PHP) on **AWS EC2** running **Red Hat Enterprise Linux (RHEL 9)**. The stack powers a fully functional **Student Records Management System** — a CRUD web application that allows adding, viewing, and deleting student records through a browser interface, backed by a MariaDB database in a secure cloud environment.
+This project demonstrates the end-to-end deployment of a full **LAMP stack** (Linux, Apache, MariaDB, PHP) on **AWS EC2** running **Red Hat Enterprise Linux (RHEL 10)**. The stack powers a fully functional **Student Records Management System** — a CRUD web application that allows adding, viewing, and deleting student records through a browser interface, backed by a MariaDB database in a secure cloud environment.
 
 ---
 
@@ -49,7 +49,7 @@ This project demonstrates the end-to-end deployment of a full **LAMP stack** (Li
 ## 🔹 AWS Infrastructure
 
 - **Instance type:** t2.micro / t3.micro (Free Tier eligible)
-- **AMI:** Red Hat Enterprise Linux 9
+- **AMI:** Red Hat Enterprise Linux 10.1.0
 - **Security Group:** SSH (port 22 — restricted to my IP), HTTP (port 80 — open)
 - **Key pair:** RSA `.ppk` format (PuTTY)
 - **Storage:** 10 GB gp2 EBS volume
@@ -124,7 +124,7 @@ The Student Records Management System supports full **CRUD** operations:
 
 ## 🔹 Outcome
 
-A secure, fully functional LAMP stack running on AWS EC2 (RHEL 9), demonstrating:
+A secure, fully functional LAMP stack running on AWS EC2, demonstrating:
 
 - Linux server provisioning and administration from scratch
 - Web server installation, configuration, and hardening
