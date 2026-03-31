@@ -18,7 +18,7 @@ This project demonstrates the end-to-end deployment of a full **LAMP stack** (Li
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
 | Component     | Technology                        |
 |---------------|-----------------------------------|
@@ -35,27 +35,8 @@ This project demonstrates the end-to-end deployment of a full **LAMP stack** (Li
 
 ## 🔹 Architecture
 
-```
-Internet
-    │
-    ▼
-AWS Security Group (port 22, 80)
-    │
-    ▼
-EC2 Instance — RHEL 9
-    │
-    ├── firewalld (HTTP/HTTPS rules)
-    │
-    ├── Apache httpd (port 80)
-    │       │
-    │       ▼
-    │   PHP 8.3 (processes .php files)
-    │       │
-    │       ▼
-    │   MariaDB (studentdb)
-    │
-    └── SELinux (Enforcing)
-```
+[/Architecture-LAMPstack.png](https://github.com/shravanidhandrut/LAMP-Server-RHEL/blob/main/Architecture-LAMPstack.png)
+
 
 **Highlights:**
 - Users access the EC2 instance over the internet via HTTP
