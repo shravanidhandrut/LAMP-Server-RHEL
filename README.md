@@ -23,7 +23,7 @@ This project demonstrates the end-to-end deployment of a full **LAMP stack** (Li
 | Component     | Technology                        |
 |---------------|-----------------------------------|
 | Cloud         | AWS EC2 (t2.micro / t3.micro)     |
-| OS            | Red Hat Enterprise Linux (RHEL 9) |
+| OS            | Red Hat Enterprise Linux (RHEL) |
 | Web Server    | Apache httpd                      |
 | Scripting     | PHP 8.3                           |
 | Database      | MariaDB (MySQL compatible)        |
