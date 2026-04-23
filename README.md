@@ -67,11 +67,11 @@ This project demonstrates the end-to-end deployment of a full **LAMP stack** (Li
 7. Installed MariaDB, ran `mysql_secure_installation` to harden defaults
 8. Created `studentdb` database and `lampuser` with least-privilege access
 9. Created `students` table with appropriate schema
-10. Installed PHP 8.3 with `php-mysqlnd`, `php-fpm`, `php-json`, `php-mbstring`
+10. Installed PHP 8.3
 11. Verified PHP with `phpinfo()` test page, then deleted it immediately (security practice)
-12. Built Student Records CRUD app in a single `index.php` file
+12. Built a Student Records CRUD app in a single `index.php` file
 13. Applied SELinux file contexts with `restorecon` and enabled `httpd_can_network_connect_db`
-14. Hardened Apache — `ServerTokens Prod`, `ServerSignature Off`, `-Indexes`
+14. Hardened Apache
 15. Set correct file permissions (`644` files, `755` directories)
 
 ---
